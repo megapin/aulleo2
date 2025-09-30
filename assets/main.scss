@@ -1,0 +1,52 @@
+@layer tailwind-base, tailwind-utilities;
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+.pretendard {
+  font-family: Pretendard;
+}
+
+html {
+  font-size: 14px;
+}
+body {
+	font-family: Pretendard;
+}
+.cupo {
+  cursor: pointer;
+}
+input {
+	padding: 2px 0;
+	border-bottom: 2px solid gray;
+  background: none;
+}
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  // .scrollbar::-webkit-scrollbar-track {
+  //   border-radius: 100vh;
+  //   // background: #f7f4ed;
+  //   background: transparent;
+  // }
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #e0cbcb3b;
+    border-radius: 100vh;
+    border: 3px solid #f6f7ed;
+  }
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #b676a8b9;
+  }
+}

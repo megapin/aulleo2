@@ -1,0 +1,24 @@
+@import 'primeicons/primeicons.css'
+
+@layer tailwind-base, primevue, tailwind-utilities;
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+.pretendard {
+  font-family: Pretendard;
+}
+
+body {
+	font-family: Pretendard;
+}
+
