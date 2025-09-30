@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
-import { ErrorHandler, useErrorHandler } from '../utils/errorHandler'
+import { ErrorHandler, useErrorHandler } from '../../utils/errorHandler'
 
 // Mock console
 global.console = {
